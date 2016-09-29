@@ -1,0 +1,7 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+   
+services:
+    auth: http://localhost:8080/login  
